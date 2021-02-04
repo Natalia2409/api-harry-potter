@@ -102,12 +102,6 @@
     margin-right: 2px;
   }
   .App {
-    height: 100px;
-  }
-}
-
-@media(max-width: 219px) {
-  .App {
     height: 170px;
   }
 }
