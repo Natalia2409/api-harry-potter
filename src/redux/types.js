@@ -1,0 +1,8 @@
+export const GET_CHARACTERS = "GET_CHARACTERS";
+export const GET_STUDENTS = "GET_STUDENTS";
+export const GET_STAFF = "GET_STAFF";
+export const GET_HOUSE = "GET_HOUSE";
+export const GET_GRYFFINDOR = "GET_GRYFFINDOR";
+export const GET_HUFFLEPUFF = "GET_HUFFLEPUFF";
+export const GET_RAVENCLAW = "GET_RAVENCLAW";
+export const GET_SLYTHERIN = "GET_SLYTHERIN";
