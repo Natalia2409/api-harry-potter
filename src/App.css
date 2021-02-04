@@ -93,7 +93,7 @@
 }
 
 @media(max-width: 600px) {
-  .App {
+  .app {
     height: 170px;
   }
   .menu {
