@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "harry-potter";
+  -webkit-text-stroke-width: 0.05px;
+  -webkit-text-stroke-color: #827a79;
 }
 
 .menu {
@@ -16,6 +18,7 @@
   text-transform: uppercase;
   padding: 0;
   background-color: #f0ba1a;
+  letter-spacing: 1px;
   border-radius: 7px;
   border: 0px;
 }
@@ -43,6 +46,11 @@
 .card p {
   font-size: 20px;
   text-transform: uppercase;
+  color: black;
+}
+
+.card-bottom {
+  letter-spacing: 2px;
 }
 
 .back {
