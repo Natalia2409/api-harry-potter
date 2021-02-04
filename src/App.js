@@ -19,7 +19,7 @@ function App() {
         <Menu />
       </div>
       <Switch>
-        <Route exact path="/api-harry-potter" component={Start} />
+        <Route exact path="/api-harry-potter/" component={Start} />
         <Route exact path="/characters" component={Characters} />
         <Route exact path="/students" component={Students} />
         <Route exact path="/staff" component={Staff} />
