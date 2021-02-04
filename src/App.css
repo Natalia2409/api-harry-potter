@@ -101,6 +101,10 @@
     margin-top: 2px;
     margin-right: 2px;
   }
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
   .App {
     height: 100px;
   }
