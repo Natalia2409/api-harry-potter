@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/api-harry-potter/static/css/main.19741bae.chunk.css",
+    "main.js": "/api-harry-potter/static/js/main.a55b888e.chunk.js",
+    "main.js.map": "/api-harry-potter/static/js/main.a55b888e.chunk.js.map",
+    "runtime-main.js": "/api-harry-potter/static/js/runtime-main.096ee48f.js",
+    "runtime-main.js.map": "/api-harry-potter/static/js/runtime-main.096ee48f.js.map",
+    "static/js/2.7ffb5957.chunk.js": "/api-harry-potter/static/js/2.7ffb5957.chunk.js",
+    "static/js/2.7ffb5957.chunk.js.map": "/api-harry-potter/static/js/2.7ffb5957.chunk.js.map",
+    "index.html": "/api-harry-potter/index.html",
+    "static/css/main.19741bae.chunk.css.map": "/api-harry-potter/static/css/main.19741bae.chunk.css.map",
+    "static/js/2.7ffb5957.chunk.js.LICENSE.txt": "/api-harry-potter/static/js/2.7ffb5957.chunk.js.LICENSE.txt",
+    "static/media/gryffindor.b6e8eba0.png": "/api-harry-potter/static/media/gryffindor.b6e8eba0.png",
+    "static/media/harry-potter-start.332be2d6.jpg": "/api-harry-potter/static/media/harry-potter-start.332be2d6.jpg",
+    "static/media/App.css": "/api-harry-potter/static/media/harry-potter.0a6fdeb3.ttf",
+    "static/media/hufflepuff.9a76b958.jpg": "/api-harry-potter/static/media/hufflepuff.9a76b958.jpg",
+    "static/media/ravenclaw.c80198ff.jpg": "/api-harry-potter/static/media/ravenclaw.c80198ff.jpg",
+    "static/media/slytherin.efa7014b.jpg": "/api-harry-potter/static/media/slytherin.efa7014b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.096ee48f.js",
+    "static/js/2.7ffb5957.chunk.js",
+    "static/css/main.19741bae.chunk.css",
+    "static/js/main.a55b888e.chunk.js"
+  ]
+}
