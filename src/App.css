@@ -93,6 +93,13 @@
 }
 
 @media(max-width: 600px) {
+  .start img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 600px) {
   .app {
     height: 170px;
   }
