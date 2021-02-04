@@ -2,7 +2,7 @@ import { GET_CHARACTERS, GET_GRYFFINDOR, GET_HOUSE, GET_HUFFLEPUFF, GET_RAVENCLA
 
 export function gettingCharacters() {
     return async dispatch => {
-        const responce = await fetch("http://hp-api.herokuapp.com/api/characters");
+        const responce = await fetch("https://hp-api.herokuapp.com/api/characters");
         const json = await responce.json();
         dispatch({ type: GET_CHARACTERS, payload: json })
     }
@@ -10,7 +10,7 @@ export function gettingCharacters() {
 
 export function gettingStudents() {
     return async dispatch => {
-        const responce = await fetch("http://hp-api.herokuapp.com/api/characters/students");
+        const responce = await fetch("https://hp-api.herokuapp.com/api/characters/students");
         const json = await responce.json();
         dispatch({ type: GET_STUDENTS, payload: json })
     }
@@ -18,7 +18,7 @@ export function gettingStudents() {
 
 export function gettingStaff() {
     return async dispatch => {
-        const responce = await fetch("http://hp-api.herokuapp.com/api/characters/staff");
+        const responce = await fetch("https://hp-api.herokuapp.com/api/characters/staff");
         const json = await responce.json();
         dispatch({ type: GET_STAFF, payload: json })
     }
@@ -32,7 +32,7 @@ export function gettingHouse() {
 
 export function gettingGryffindor() {
     return async dispatch => {
-        const responce = await fetch("http://hp-api.herokuapp.com/api/characters/house/gryffindor");
+        const responce = await fetch("https://hp-api.herokuapp.com/api/characters/house/gryffindor");
         const json = await responce.json();
         dispatch({ type: GET_GRYFFINDOR, payload: json })
     }
@@ -40,7 +40,7 @@ export function gettingGryffindor() {
 
 export function gettingHufflepuff() {
     return async dispatch => {
-        const responce = await fetch("http://hp-api.herokuapp.com/api/characters/house/hufflepuff");
+        const responce = await fetch("https://hp-api.herokuapp.com/api/characters/house/hufflepuff");
         const json = await responce.json();
         dispatch({ type: GET_HUFFLEPUFF, payload: json })
     }
@@ -48,7 +48,7 @@ export function gettingHufflepuff() {
 
 export function gettingRavenclaw() {
     return async dispatch => {
-        const responce = await fetch("http://hp-api.herokuapp.com/api/characters/house/ravenclaw");
+        const responce = await fetch("https://hp-api.herokuapp.com/api/characters/house/ravenclaw");
         const json = await responce.json();
         dispatch({ type: GET_RAVENCLAW, payload: json })
     }
@@ -56,7 +56,7 @@ export function gettingRavenclaw() {
 
 export function gettingSlytherin() {
     return async dispatch => {
-        const responce = await fetch("http://hp-api.herokuapp.com/api/characters/house/slytherin");
+        const responce = await fetch("https://hp-api.herokuapp.com/api/characters/house/slytherin");
         const json = await responce.json();
         dispatch({ type: GET_SLYTHERIN, payload: json })
     }
