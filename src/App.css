@@ -93,6 +93,9 @@
 }
 
 @media(max-width: 600px) {
+  .App {
+    height: 170px;
+  }
   .menu {
     display: block;
     text-align: center;
@@ -100,8 +103,5 @@
   .menu button {
     margin-top: 2px;
     margin-right: 2px;
-  }
-  .App {
-    height: 170px;
   }
 }
